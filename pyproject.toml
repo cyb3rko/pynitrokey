@@ -23,9 +23,6 @@ dependencies = [
   "cryptography >=43, <47",
   "fido2 >=2, <3",
   "hidapi >=0.14, <0.15",
-  # Limit hidapi on Linux to versions using the hidraw backend, see
-  # https://github.com/Nitrokey/pynitrokey/issues/601
-  "hidapi >=0.14.0.post1, <0.14.0.post4 ; sys_platform == 'linux'",
   "intelhex >=2.3, <3",
   "libusb1 >=3, <4",
   "nethsm >=2, <3",
